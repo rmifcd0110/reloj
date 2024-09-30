@@ -1,0 +1,32 @@
+/* Estilo básico para la página */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+    color: #ffffff;
+}
+
+/* Estilos para el contenedor del reloj */
+.clock-container {
+    text-align: center;
+    border: 2px solid #61dafb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    background-color: #20232a;
+}
+
+/* Estilo para el reloj */
+#clock {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para la fecha */
+#date {
+    font-size: 24px;
+}
